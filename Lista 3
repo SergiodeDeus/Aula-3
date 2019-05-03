@@ -1,0 +1,28 @@
+print("lista#3")
+print("Exercicio#1")
+nome = input("Digite seu nome: ")
+idade = int(input("digite a sua idade: "))
+anoAtual= 2019
+AnoNascimento = anoAtual - idade
+CalculoIdade = AnoNascimento + 100
+print(nome+", você irá fazer 100 anos em ",CalculoIdade)
+#teste de mesa é fazer o que a programação está fazendo
+
+print("lista#3")
+print("Exercicio#2")
+nome = input("Digite seu nome: ")
+idade = int(input("digite a sua idade: "))
+qtd = int(input("Quantas vezes você gostaria de imprimir a mensagem?"))
+anoAtual= 2019
+AnoNascimento = anoAtual - idade
+CalculoIdade = AnoNascimento + 100
+while (qtd !=0):
+  print(nome+", você irá fazer 100 anos em ",CalculoIdade)
+  qtd=qtd-1
+  
+  print("Exercicio #3")
+n = int(input("Digite um número para que eu adivinhe se é par: "))
+if (n%2 == 0):
+  print("Sim, é par!")
+else:
+  print("Não,é impar...")
